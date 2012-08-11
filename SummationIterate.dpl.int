@@ -1,0 +1,25 @@
+read
+store n
+push 1.0
+store i
+push 0.0
+store sum
+push i
+push n
+push 1.0
+plus
+less
+testfgoto 23
+push sum
+push i
+plus
+store sum
+push i
+push 1.0
+plus
+store i
+push 1.0
+testtgoto 7
+push sum
+print
+end

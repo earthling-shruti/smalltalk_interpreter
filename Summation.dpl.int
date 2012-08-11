@@ -1,0 +1,13 @@
+read
+store n
+push n
+push n
+push 1.0
+plus
+multiply
+push 2.0
+divide
+store sum
+push sum
+print
+end

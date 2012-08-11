@@ -1,0 +1,23 @@
+read
+store x
+read
+store n
+push 1.0
+store prod
+push n
+push 0.0
+greater
+testfgoto 21
+push prod
+push x
+multiply
+store prod
+push n
+push 1.0
+minus
+store n
+push 1.0
+testtgoto 7
+push prod
+print
+end

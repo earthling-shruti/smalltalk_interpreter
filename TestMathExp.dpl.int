@@ -1,0 +1,53 @@
+read
+store x
+push x
+push 2.0
+plus
+push 3.0
+plus
+store plusAssoc
+push plusAssoc
+print
+push x
+push 2.0
+minus
+push 3.0
+minus
+store minusAssoc
+push minusAssoc
+print
+push x
+push 2.0
+push 3.0
+multiply
+plus
+store precedPlusMult
+push precedPlusMult
+print
+push x
+push 4.0
+push 2.0
+divide
+minus
+store precedMinusDiv
+push precedMinusDiv
+print
+push x
+push 4.0
+minus
+push 2.0
+divide
+store parenTest
+push parenTest
+print
+push x
+push 4.0
+minus
+push 2.0
+plus
+push 3.0
+divide
+store nestedParenTest
+push nestedParenTest
+print
+end
